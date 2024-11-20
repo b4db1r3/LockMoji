@@ -1,0 +1,10 @@
+Package: com.b4db1r3.lockmoji16
+Name: LockMoji16 (iOS 15+)
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Change your ProudLock to an Emoji or Unicode character.
+Depiction:  
+SileoDepiction:  
+Maintainer: b4db1r3
+Author: b4db1r3
+Section: Tweaks (LockScreen)

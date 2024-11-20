@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> made with ❤ by b3db1r3 </string>
+		</dict>
+ 		<dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.b4db1r3.LockMojiprefs</string>
+            <key>key</key>              <string>tweakEnabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>PostNotification</key> <string>com.b4db1r3.LockMojiprefs/settingschanged</string>
+        </dict>
+<dict>
+    <key>cell</key>
+    <string>PSStaticTextCell</string>
+    <key>label</key>
+    <string> put the wanted symbol / emoji, then respring </string>
+ </dict>
+
+<dict>
+    <key>cell</key>
+    <string>PSEditTextCell</string>
+    <key>label</key>
+    <string>Authenticated Symbol</string>
+    <key>defaults</key>
+    <string>com.b4db1r3.LockMojiprefs</string>
+    <key>key</key>
+    <string>authenticatedSymbol</string>
+    <key>default</key>
+    <string>\u2713</string>
+    <key>PostNotification</key>
+    <string>com.b4db1r3.LockMojiprefs/settingschanged</string>
+</dict>
+<dict>
+    <key>cell</key>
+    <string>PSEditTextCell</string>
+    <key>label</key>
+    <string>Unauthenticated Symbol</string>
+    <key>defaults</key>
+    <string>com.b4db1r3.LockMojiprefs</string>
+    <key>key</key>
+    <string>unauthenticatedSymbol</string>
+    <key>default</key>
+    <string>\u2715</string>
+    <key>PostNotification</key>
+    <string>com.b4db1r3.LockMojiprefs/settingschanged</string>
+</dict>
+	</array>
+	<key>title</key>
+	<string>LockMoji16</string>
+</dict>
+</plist>
+
+
